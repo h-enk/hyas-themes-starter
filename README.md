@@ -18,11 +18,11 @@ Add to `./config/_default/module.toml`:
 
 ```toml
 [[mounts]]
-  source = "layouts"
+  source = "node_modules/@hyas/themes-starter/layouts"
   target = "layouts"
 
 [[mounts]]
-  source = "node_modules/@hyas/themes-starter/layouts"
+  source = "layouts"
   target = "layouts"
 ```
 
